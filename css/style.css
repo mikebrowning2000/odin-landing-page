@@ -1,3 +1,4 @@
+
 body, html {
     padding: 0;
     margin: 0;
@@ -17,13 +18,13 @@ a {
     flex-direction: column;
     
 }
-.information, .testimonial {
-    padding: 1.5rem 25rem
-}
 
-.nav, .hero, .action, .footer {
-    padding: 1.5rem 15rem
-}
+
+/* .nav, .hero, .action, .footer {
+    padding: 1.5rem 15rem;
+    
+
+} */
 
 .hero, .information, .testimonial, .action {
     flex: 1;
@@ -31,14 +32,18 @@ a {
 .nav {
     background-color: #1F2937;
     /* padding: 1.5rem 10rem; */
+    display: flex;
+    justify-content: center;
 }
 .nav ul {
     list-style: none;
     display: flex;
+    flex: 0 1 1262px;
     gap: 15px;
     justify-content: flex-end;
     margin: 0;
-    padding: 0;
+    padding: 0;    
+    height: 50px;
 }
  
  .nav ul li {
@@ -60,17 +65,33 @@ a {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #f9faf8;
+ }
+
+ .hero-content {
+   display: flex;
+   flex: 0 1 auto;
+   /* max-width: 75vw; */
+   justify-content: center;
+   
  }
 
  .hero-img {
     flex: 2 0 50%;
     background: url('/img/code.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center; 
+    /* margin-right: 10rem;
+    margin-bottom: 50px;
+    margin-top: 50px; */
     
-    
-    
+ }
+
+ .welcome {
+   /* margin-left: 10rem;
+   margin-bottom: 50px;
+   margin-top: 50px; */
  }
 
  
@@ -79,6 +100,8 @@ a {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 16px;
+    
+   
     
  }
 
@@ -98,6 +121,7 @@ a {
     align-items: center;
     flex-direction: column;
     flex-basis: 450px;
+    flex-shrink: 0;
  }
 
  .items {
@@ -105,6 +129,8 @@ a {
     gap: 75px;
     padding-top: 0;
     padding-bottom: 0;
+    justify-content: center;
+    
     
  }
 
@@ -113,6 +139,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 0 1 200px
     
  }
  .item p {
@@ -140,12 +167,13 @@ a {
 .testimonial {
    display: flex;
    justify-content: center;
-   align-items: center;
-   flex-direction: column;
+   align-items: center;   
    flex-basis: 415px;
    background-color: #e5e7eb;
+
  }
 .quote {
+   flex: 0 1 1262px;
    font-size: 36px;
    font-style: italic;
    font-weight: lighter;
