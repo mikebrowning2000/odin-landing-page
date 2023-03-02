@@ -156,3 +156,45 @@ a {
    text-align: end;
    font-size: 18px;
 }
+
+.action {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   flex-basis: 375px;
+}
+
+.alert {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 150px;
+   background-color: #3882f6;
+   border-radius: 12px;
+   flex-basis: 200px;
+   padding: 5px 100px;
+}
+
+.message {
+   padding: 25px;
+   color: #f9faf8;
+   font-size: 18px;
+}
+
+.message-heading {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.action-btn {
+   border: 2px solid #f9faf8;
+}
+
+.footer {
+   background-color: #1F2937;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #f9faf8;
+}
