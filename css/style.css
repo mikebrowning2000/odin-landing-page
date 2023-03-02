@@ -38,7 +38,7 @@ a {
 .nav ul {
     list-style: none;
     display: flex;
-    flex: 0 1 1262px;
+    flex: 0 1 1292.88px;
     gap: 15px;
     justify-content: flex-end;
     margin: 0;
@@ -74,6 +74,8 @@ a {
    flex: 0 1 auto;
    /* max-width: 75vw; */
    justify-content: center;
+   margin-top: 70px;
+   margin-bottom: 70px;
    
  }
 
@@ -92,6 +94,7 @@ a {
    /* margin-left: 10rem;
    margin-bottom: 50px;
    margin-top: 50px; */
+   padding-right: 30px;
  }
 
  
@@ -173,10 +176,11 @@ a {
 
  }
 .quote {
-   flex: 0 1 1262px;
+   flex: 0 1 1292.88px;
    font-size: 36px;
    font-style: italic;
    font-weight: lighter;
+   padding: 100px;
 }
 
 .quote-name {
@@ -188,26 +192,26 @@ a {
 .action {
    display: flex;
    justify-content: center;
-   align-items: center;
-   flex-direction: column;
+   align-items: center;   
    flex-basis: 375px;
 }
 
 .alert {
    display: flex;
+   flex: 0 1 1325px;
    justify-content: center;
    align-items: center;
    gap: 150px;
    background-color: #3882f6;
-   border-radius: 12px;
-   flex-basis: 200px;
-   padding: 5px 100px;
+   border-radius: 12px;   
+   padding: 5px 75px;
 }
 
 .message {
    padding: 25px;
    color: #f9faf8;
    font-size: 18px;
+   margin-right: auto;
 }
 
 .message-heading {
