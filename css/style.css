@@ -1,0 +1,119 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-weight:lighter;
+    font-size: 18px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav, .hero, .information, .testimonial, .action, .footer {
+    padding: 1.5rem 10rem
+}
+
+.hero, .information, .testimonial, .action {
+    flex: 1;
+}
+.nav {
+    background-color: #1F2937;
+    /* padding: 1.5rem 10rem; */
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+ 
+ .nav ul li {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .logo {
+    margin-right: auto;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 24px;
+ }
+
+ .hero {
+    flex-basis: 250px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+ }
+
+ .hero-img {
+    flex: 1 1 50%;
+    background: url('/img/code.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    
+ }
+
+ 
+
+ .welcome h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+ }
+
+ .btn {
+    padding: 10px 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+ }
+
+ .information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 450px;
+ }
+
+ .items {
+    display: flex;
+    gap: 75px;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+ }
+
+ .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .picture {
+    flex-basis: 150px;
+    border: 4px solid #3882f6 ;
+    align-self: stretch;
+    border-radius: 12px;
+ }
+ 
