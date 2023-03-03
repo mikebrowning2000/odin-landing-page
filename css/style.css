@@ -81,7 +81,7 @@ a {
 
  .hero-img {
     flex: 2 0 50%;
-    background: url('/img/code.jpg');
+    background: url('../img/code.jpg');
     background-size: cover;
     background-position: center; 
     /* margin-right: 10rem;
